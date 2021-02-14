@@ -19,11 +19,18 @@
                     <%= article.title %>
                 </div>
                 <div class="card-body">
-                    <a href="#" class="btn btn-dark">Ler Artigo</a>
+                    <a href="/<%= article.slug %>" class="btn btn-dark">Ler Artigo</a>
                 </div>
             </div>
             <br>
         <% }) %>
+
+        <div class="row">
+            <div class="col col-12">
+                <a href="articles/page/2" style="float:right">Next >></a>
+            </div>
+        </div>
+        <hr>
 
     </div>
 </body>
