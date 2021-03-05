@@ -1,8 +1,8 @@
 const { Model } = require("sequelize")
 const Sequelize = require("sequelize")
 
-const connection = new Sequelize('guiapress123', 'alexdev', 'olocomeu',{
-    host: 'mysql742.umbler.com',
+const connection = new Sequelize('guiapress', 'root', '',{
+    host: 'localhost',
     dialect: 'mysql',
     timezone: '-03:00'
 })
